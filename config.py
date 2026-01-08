@@ -22,7 +22,7 @@ WORKERS = 5
 DB_URI = "mongodb+srv://thecaptainleviii_db_user:Yz6VgjFm2E2DZrW9@cluster0.qy8fgla.mongodb.net/?appName=Cluster0"
 DB_NAME = "LEVi"
 
-FSUBS = [[-1001728907275, True, 10]] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL = -1003663115687   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
