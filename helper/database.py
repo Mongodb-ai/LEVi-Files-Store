@@ -106,7 +106,7 @@ class MongoDB:
         return bool(found)
 
     async def add_user(self, user_id: int, ban: bool = False):
-        await self.user_data.insert_one({'_id': user_id, 'ban': ban})
+        await self.user_data.update_one({'_id': user_id}, {'$setOnInsert': {'ban': ban}}, upsert=True)
 
     async def full_userbase(self) -> list[int]:
         cursor = self.user_data.find()
