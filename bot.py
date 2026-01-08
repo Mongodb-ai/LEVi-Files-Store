@@ -1,4 +1,4 @@
-#(©) Codeflix_Bots
+#(©) @Princeny4
 
 from aiohttp import web
 from plugins import web_server
@@ -26,7 +26,7 @@ class Bot(Client):
             bot_token=token
         )
         self.LOGGER = LOGGER
-        self.name = session
+        self.name="my_bot",
         self.db = db
         self.fsub = fsub
         self.owner = OWNER_ID
