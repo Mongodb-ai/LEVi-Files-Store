@@ -151,13 +151,13 @@ class Bot(Client):
         except Exception as e:
             self.LOGGER(__name__, self.name).warning(e)
             self.LOGGER(__name__, self.name).warning(f"Make Sure bot is Admin in DB Channel, and Double check the database channel Value, Current Value {self.db}")
-            self.LOGGER(__name__, self.name).info("\nBot Stopped. Join https://t.me/animes_cruise for support")
+            self.LOGGER(__name__, self.name).info("\nBot Stopped. Join https://t.me/Princeny4 for support")
             sys.exit()
         self.LOGGER(__name__, self.name).info("Bot Started!!")
         
         # Send restart msge to owner
         try:
-            restart_message = "<b>›› ʜᴇʏ sᴇɴᴘᴀɪ!!\n ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ 🍃...</b>"
+            restart_message = "<b>›› ʜᴇʏ!!\n ɪ'ᴍ ᴀʟɪᴠᴇ ɴᴏᴡ 🍃...</b>"
             await self.send_message(chat_id=self.owner, text=restart_message)
             self.LOGGER(__name__, self.name).info(f"Restart notification sent to owner: {self.owner}")
         except Exception as e:
