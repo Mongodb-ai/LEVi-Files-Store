@@ -14,7 +14,7 @@ SHORT_TUT = "https://t.me/moviee_group_0/3500316"
 
 # Bot Configuration
 SESSION = "File_Store"
-TOKEN = "7725977458:AAHQe3i1OQ12YzuhPhUhtS0iPohSFYLo-Ac"
+TOKEN = "7447390753:AAFc-JTWE6vo2nYPdYm4_HNhn6sLhwnv6NA"
 API_ID = "22421060"
 API_HASH = "46a62f7ff38bbe266a4a8dc07770653e"
 WORKERS = 5
@@ -22,7 +22,8 @@ WORKERS = 5
 DB_URI = "mongodb+srv://thecaptainleviii_db_user:Yz6VgjFm2E2DZrW9@cluster0.qy8fgla.mongodb.net/?appName=Cluster0"
 DB_NAME = "LEVi"
 
-FSUBS = [] # Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
+FSUBS = [[-1001728907275, True, 10]]
+# Force Subscription Channels [channel_id, request_enabled, timer_in_minutes]
 # Database Channel (Primary)
 DB_CHANNEL = -1003663115687   # just put channel id dont add ""
 # Multiple Database Channels (can be set via bot settings)
