@@ -14,7 +14,7 @@ SHORT_TUT = "https://t.me/moviee_group_0/3500316"
 
 # Bot Configuration
 SESSION = "LEVi"
-TOKEN = ""
+TOKEN = "7725977458:AAHQe3i1OQ12YzuhPhUhtS0iPohSFYLo-Ac"
 API_ID = "22421060"
 API_HASH = "46a62f7ff38bbe266a4a8dc07770653e"
 WORKERS = 5
